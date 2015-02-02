@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script type="text/javascript" src="ajax_form.js"></script>
+</head>
+<body>
+    <form action="process.php" id="ajax_form">
+        Username:<input type="text" name="username"/><br>
+        Password:<input type="password" name="password"/><br>
+        Gender:<input type="radio" name="gender" value="male"/>Male&nbsp;
+            <input type="radio" name="gender" value="female"/>Female<br>
+        Interest:<input type="checkbox" name="interest[]" value="programing"/>Programing&nbsp;
+            <input type="checkbox" name="interest[]" value="game"/>Game&nbsp;
+            <input type="checkbox" name="interest[]" value="sport"/>Sport
+        <input type="button" onclick="submitForm('ajax_form', 'tip')" value="Submit">
+    </form>
+    <div id="tip"></div>
+</body>
+</html>
