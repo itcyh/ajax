@@ -1,5 +1,5 @@
 <?php
-$text = "The data that you submit:";
+$text = "The data taahat you submit:";
 $text .= "<br>Username: " . $_POST['username'];
 $text .= "<br>Password: " . $_POST['password'];
 $text .= "<br>Gender: " . $_POST['gender'];
